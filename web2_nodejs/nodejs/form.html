@@ -1,0 +1,19 @@
+<form action="http://localhost:3000/process_create" method="post">
+<!--위 주소로 보내고 싶습니다! 이런 뜻임.-->
+
+<p><input type="text" name="title"></p>
+<p>
+    <textarea name="description"></textarea>
+</p>
+<p>
+    <input type="submit">
+</p>
+</form>
+
+<!--
+이렇게 만들고 submit버튼을 누르게 되면 
+http://localhost:3000/process_create?title=dd&description=dfsdf
+이런 주소가 나온다. 
+-->
+
+<!--method를 post로 해야하는 것!-->
